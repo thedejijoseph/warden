@@ -114,7 +114,7 @@
 					"response": []
 				},
 				{
-					"name": "Fetch Cached Results: Last Week Churn Copy",
+					"name": "Cache Results: Last Week Churn",
 					"id": "1c0ec0f8-d3f7-441d-b188-b87b7f3785b8",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
@@ -309,7 +309,7 @@
 	],
 	"variable": [
 		{
-			"id": "b4cf6d1b-1053-4b55-9e5e-26b1f7eb5184",
+			"id": "a4e95907-808e-43ea-bb6d-6b1034fbcc61",
 			"key": "api_url",
 			"value": "http://localhost:8000",
 			"type": "string"
