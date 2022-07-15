@@ -33,7 +33,7 @@
 							}
 						}
 					],
-					"_postman_id": "ab65d861-b5cc-4d65-8bae-00be1c3ba720",
+					"id": "ab65d861-b5cc-4d65-8bae-00be1c3ba720",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -70,7 +70,7 @@
 							}
 						}
 					],
-					"_postman_id": "e2fa1e9b-3ddc-4d76-87fe-a73728607c02",
+					"id": "e2fa1e9b-3ddc-4d76-87fe-a73728607c02",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -99,9 +99,21 @@
 						}
 					},
 					"response": []
+				},
+				{
+					"name": "New Request",
+					"id": "91068eaa-da06-4afa-b174-c81b9c2abaf6",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
 				}
 			],
-			"_postman_id": "fb34fd0b-bff9-4a19-99e6-8919f0fa412e",
+			"id": "fb34fd0b-bff9-4a19-99e6-8919f0fa412e",
 			"description": "This folder contains endpoints that process Redash-like queries"
 		},
 		{
@@ -124,7 +136,7 @@
 					}
 				}
 			],
-			"_postman_id": "e8ab7d68-2737-4096-b7ea-84312fb8c303",
+			"id": "e8ab7d68-2737-4096-b7ea-84312fb8c303",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -160,7 +172,7 @@
 					}
 				}
 			],
-			"_postman_id": "9c4bc841-a96a-46c2-ac85-d9214c725371",
+			"id": "9c4bc841-a96a-46c2-ac85-d9214c725371",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -196,7 +208,7 @@
 					}
 				}
 			],
-			"_postman_id": "b4bcc43d-a462-4ece-a804-aaab398a270e",
+			"id": "b4bcc43d-a462-4ece-a804-aaab398a270e",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -232,7 +244,7 @@
 					}
 				}
 			],
-			"_postman_id": "1ceb7da4-0bcd-40c0-8046-20eca205f2f9",
+			"id": "1ceb7da4-0bcd-40c0-8046-20eca205f2f9",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -283,7 +295,7 @@
 	],
 	"variable": [
 		{
-			"id": "0222eb42-d34f-40cc-b1ab-6ff8b89c5d37",
+			"id": "5f3c8edf-06ce-402f-94ba-1a7322f78867",
 			"key": "api_url",
 			"value": "http://localhost:8000",
 			"type": "string"
