@@ -101,7 +101,7 @@
 					"response": []
 				},
 				{
-					"name": "New Request",
+					"name": "Fetch Cached Results: Last Week Churn",
 					"id": "91068eaa-da06-4afa-b174-c81b9c2abaf6",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
@@ -295,7 +295,7 @@
 	],
 	"variable": [
 		{
-			"id": "0e1ecaca-85fd-4a4f-9a75-725eb6e907b0",
+			"id": "9a45d790-8038-4a8f-b982-513017066db5",
 			"key": "api_url",
 			"value": "http://localhost:8000",
 			"type": "string"
