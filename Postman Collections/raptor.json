@@ -108,7 +108,8 @@
 					},
 					"request": {
 						"method": "GET",
-						"header": []
+						"header": [],
+						"url": "{{api_url}}/redash/cached/churn-lastweek"
 					},
 					"response": []
 				}
@@ -295,7 +296,7 @@
 	],
 	"variable": [
 		{
-			"id": "edbadd05-2ba0-43e4-91c9-651f3f5810fc",
+			"id": "7dad5397-37bc-4fde-94d6-a6c56c505879",
 			"key": "api_url",
 			"value": "http://localhost:8000",
 			"type": "string"
