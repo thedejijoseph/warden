@@ -115,6 +115,29 @@
 				},
 				{
 					"name": "Cache Results: Last Week Churn",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "aeeb5e2e-fcce-4217-93a8-1622f7241b09",
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"pm.test(\"Response is not empty\", function () {",
+									"    pm.response.to.not.have.body(\"\");",
+									"});",
+									"",
+									"pm.test(\"Response time is less than 50s\", function () {",
+									"    pm.expect(pm.response.responseTime).to.be.below(50000);",
+									"});",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
 					"id": "1c0ec0f8-d3f7-441d-b188-b87b7f3785b8",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
@@ -309,7 +332,7 @@
 	],
 	"variable": [
 		{
-			"id": "9d18c363-a538-4250-ba0b-7683508a3a61",
+			"id": "9c20c922-8078-48d4-b6c7-ad87ff90b629",
 			"key": "api_url",
 			"value": "http://localhost:8000",
 			"type": "string"
