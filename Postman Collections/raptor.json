@@ -112,6 +112,19 @@
 						"url": "{{api_url}}/redash/cached/churn-lastweek"
 					},
 					"response": []
+				},
+				{
+					"name": "Fetch Cached Results: Last Week Churn Copy",
+					"id": "1c0ec0f8-d3f7-441d-b188-b87b7f3785b8",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "{{api_url}}/redash/cached/churn-lastweek"
+					},
+					"response": []
 				}
 			],
 			"id": "fb34fd0b-bff9-4a19-99e6-8919f0fa412e",
@@ -296,7 +309,7 @@
 	],
 	"variable": [
 		{
-			"id": "7dad5397-37bc-4fde-94d6-a6c56c505879",
+			"id": "83a2afb6-0db0-46f0-8aff-7cf1c289f2f1",
 			"key": "api_url",
 			"value": "http://localhost:8000",
 			"type": "string"
