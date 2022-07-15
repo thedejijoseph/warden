@@ -309,7 +309,7 @@
 	],
 	"variable": [
 		{
-			"id": "83a2afb6-0db0-46f0-8aff-7cf1c289f2f1",
+			"id": "b4cf6d1b-1053-4b55-9e5e-26b1f7eb5184",
 			"key": "api_url",
 			"value": "http://localhost:8000",
 			"type": "string"
