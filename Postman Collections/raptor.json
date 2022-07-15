@@ -120,7 +120,7 @@
 						"disableBodyPruning": true
 					},
 					"request": {
-						"method": "GET",
+						"method": "POST",
 						"header": [],
 						"url": "{{api_url}}/redash/cached/churn-lastweek"
 					},
@@ -309,7 +309,7 @@
 	],
 	"variable": [
 		{
-			"id": "a4e95907-808e-43ea-bb6d-6b1034fbcc61",
+			"id": "84cb8488-1912-428c-99d3-a90f71090713",
 			"key": "api_url",
 			"value": "http://localhost:8000",
 			"type": "string"
